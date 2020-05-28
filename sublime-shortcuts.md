@@ -71,7 +71,8 @@
 
 ## Sublime Custom Shortcuts Settings
 
-´´´´
+´´´
+
 [
 	{ "keys": ["alt+<"], "command": "auto_complete" },
 	{ "keys": ["alt+<"], "command": "replace_completion_with_auto_complete", "context":
@@ -86,4 +87,4 @@
 	{ "keys": ["ctrl+<"], "command": "toggle_comment", "args": { "block": false } },
 	{ "keys": ["ctrl+shift+<"], "command": "toggle_comment", "args": { "block": true } }
 ]
-´´´´
+´´´
