@@ -62,8 +62,7 @@
 
 ## Autocomplete <kbd>Tab</kbd>
 
-| ---------|
-| htmltag.classname
-| htmltag#ID
-| link
-| script 
+| htmltag.classname |
+| htmltag#ID |
+| link |
+| script | 
