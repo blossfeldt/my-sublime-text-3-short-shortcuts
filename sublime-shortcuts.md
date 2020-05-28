@@ -68,3 +68,22 @@
 | htmltag#ID |
 | link |
 | script | 
+
+## Sublime Custom Shortcuts Settings
+
+´´´´
+[
+	{ "keys": ["alt+<"], "command": "auto_complete" },
+	{ "keys": ["alt+<"], "command": "replace_completion_with_auto_complete", "context":
+		[
+			{ "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+			{ "key": "auto_complete_visible", "operator": "equal", "operand": false },
+			{ "key": "setting.tab_completion", "operator": "equal", "operand": true }
+		]
+	},
+	{ "keys": ["ctrl+y"], "command": "find_under" },
+	{ "keys": ["alt+y"], "command": "find_all_under" },
+	{ "keys": ["ctrl+<"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+shift+<"], "command": "toggle_comment", "args": { "block": true } }
+]
+´´´´
