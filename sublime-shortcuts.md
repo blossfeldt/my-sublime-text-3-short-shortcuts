@@ -72,7 +72,6 @@
 ## Sublime Custom Shortcuts Settings
 
 ```
-
 [
 	{ "keys": ["alt+<"], "command": "auto_complete" },
 	{ "keys": ["alt+<"], "command": "replace_completion_with_auto_complete", "context":
